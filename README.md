@@ -76,12 +76,12 @@ Extract a seperate validation dataset from another set of books as "validation_d
 
  Classifier Model              | Source Code         | Validation Accuracy (same books) |  Validation Accuracy (seperate books) |
 |-------------------------|-----------------|-------------------|-------------------|
-| GRU + Glove      |keras_glove_gru.ipynb  |82.72    | 57.55   |
-| LSTM + Glove  | keras_glove_lstm.ipynb |  82.34            |59.63       |
-|  Bidirectional LSTM + Glove | keras_glove_bi_lstm.ipynb  |   80.18 |     59.60 |
-| GRU + Word2vec  | keras_word2vec_gru.ipynb  |    76.68   |  59.63  |
-| LSTM + Word2vec   | keras_word2vec_lstm.ipynb  | 70.62             |      55.58 |          
-|  Bidirectional LSTM + Word2vec| keras_word2vec_bi_lstm.ipynb |69.76  |   54.80   |     
+| GRU + Glove      |[keras_glove_gru.ipynb](Deep_Learning/keras_glove_gru.ipynb)  |82.70    | 59.45   |
+| LSTM + Glove  | [keras_glove_lstm.ipynb](Deep_Learning/keras_glove_lstm.ipynb) |  80.32            |58.25       |
+|  Bidirectional LSTM + Glove | [keras_glove_bi_lstm.ipynb](Deep_Learning/keras_glove_bi_lstm.ipynb)  |   78.38 |     59.23 |
+| GRU + Word2vec  | [keras_word2vec_gru.ipynb](Deep_Learning/keras_word2vec_gru.ipynb) |    76.68   |  59.63  |
+| LSTM + Word2vec   | [keras_word2vec_lstm.ipynb](Deep_Learning/keras_word2vec_lstm.ipynb)  | 70.62             |      55.58 |          
+|  Bidirectional LSTM + Word2vec| [keras_word2vec_bi_lstm.ipynb](Deep_Learning/keras_word2vec_bi_lstm.ipynb) |69.76  |   54.80   |     
 
 ### Transformers - TensorFlow Hub
 
