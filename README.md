@@ -16,6 +16,23 @@ DataDisca Pty Ltd, Melbourne, Australia
 
 [https://www.datadisca.com](https://www.datadisca.com)
 
+## Prerequisites
+
+Latest tested versions are mentioned inside the brackets along with the library names for reference.
+
+1. Python (3.9.7)
+2. Jupyter Notebook (6.4.6) with IPython (7.29.0)
+4. Numba (0.54.0rc1)
+5. Numpy (1.22.0)
+6. Pandas (1.3.4)
+8. Matplotlib  (3.5.0)
+9. Tensorflow (2.9.0.dev20220102) including Keras (2.9.0.dev2022010308) and Tensorboard (2.8.0a20220102)
+10. Scikit-learn (1.0.1)
+11. Plotly (5.4.0)
+12. Pydot (1.4.2) - Dependency for [tf.keras.utils.plot_model](https://www.tensorflow.org/api_docs/python/tf/keras/utils/plot_model)
+13. Pydotplus (2.0.2) - Dependency for [tf.keras.utils.plot_model](https://www.tensorflow.org/api_docs/python/tf/keras/utils/plot_model) 
+14. [GraphViz](https://graphviz.org/download/) (2.50.0) - Dependency for [tf.keras.utils.plot_model](https://www.tensorflow.org/api_docs/python/tf/keras/utils/plot_model)
+
 ## Dataset
 
 Below mentioned 5 authors were selected as the sample authors for this project.
