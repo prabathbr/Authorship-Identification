@@ -25,7 +25,7 @@ Each source file is covered under respective licenses by [Project Gutenberg](htt
 ###  Download raw files
 
 Download the text (Plain Text UTF-8) of at least 5 books for train, test, validation splits and 4 books for the seperate validation dataset from each author in the following table.  
-* Script: Dataset_Prepare\download_dataset.ipynb
+* Script: [Dataset_Prepare\download_dataset.ipynb](Dataset_Prepare/download_dataset.ipynb)
 
 | Author | URL |
 |--------|-----|
