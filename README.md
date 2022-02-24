@@ -37,7 +37,7 @@ Script: Dataset_Prepare\download_dataset.ipynb
   
 ###  Extract records as CSV files
 
-Extract mutually exclusive records of length L words, from the text of each book for train, test, validation splits as "dataset.csv". 
+Extract mutually exclusive records of length L words, from the text of each book for train, test, validation splits as "dataset.csv".  
 Script: Dataset_Prepare\extract.ipynb
 
 * L = 50 # length of records to be extracted
@@ -53,7 +53,7 @@ Script: Dataset_Prepare\extract.ipynb
   7. Remove last 250 sentances to remove Gutenbury stuff such as license etc.
   8. Convert all text to lowercase 
 
-Extract a seperate validation dataset from another set of books as "validation_dataset.csv". 
+Extract a seperate validation dataset from another set of books as "validation_dataset.csv".  
 Script: Dataset_Prepare\seperate_validation.ipynb
   + L = 50 # length of records to be extracted
   + N = 1000 # number of records for a book
