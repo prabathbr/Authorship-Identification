@@ -61,3 +61,14 @@ Extract a seperate validation dataset from another set of books as "validation_d
 
 
 ## NLP Models and Techniques
+
+### Classical Models using only "dataset.csv"
+
+| Classifier              | Bag of Word + TF-IDF (TfidfVectorizer())         | Averaged Test Accuracy | Averaged Validation Accuracy |
+|-------------------------|-----------------|-------------------|-------------------|
+| Logistic Regression     |train_LR.ipynb  | 89.03             | 89.02                |
+| Support Vector Machines | train_SVM.ipynb |xxxx              |xxxx             |
+| Random Forest           | train_RFC.ipynb |72.67     |72.29            |
+| Naive Bayes              |train_NB.ipynb |89.34         |89.92             |
+| XGBoost                 | train_XGB.ipynb |78.23     |77.73          |
+
