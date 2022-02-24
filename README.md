@@ -87,4 +87,5 @@ Extract a seperate validation dataset from another set of books as "validation_d
 
 | Classifier Model              | Source Code         | Validation Accuracy (same books) |  Validation Accuracy (seperate books) |
 |-------------------------|-----------------|-------------------|-------------------|            
-|  BERT       |keras_bert_v4.ipynb   | 92.76  |     71.15 |   
+|  BERT (TensorFlow Hub) - Google Colab      |keras_bert_v4.ipynb   | 92.76  |     71.15 |  
+|  BERT (TensorFlow Hub) - Local PC    |keras_bert_v4_18_3060.ipynb   | 92.76  |     71.15 | 
