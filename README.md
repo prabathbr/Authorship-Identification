@@ -94,8 +94,8 @@ Extract a seperate validation dataset from another set of books as "validation_d
 
 | Classifier Model              | Source Code         | Validation Accuracy (same books) |  Validation Accuracy (seperate books) |
 |-------------------------|-----------------|-------------------|-------------------|            
-|  BERT (Adam / seq_length = 100)   |keras_hf_bert_3060.ipynb   | xxx  |     xx | 
-|  DistilBERT (Adam / seq_length = 100)   |keras_hf_DistilBERT.ipynb   | xxx  |     xx | 
-|  RoBERTa (Adam / seq_length = 100)   |keras_hf_RoBERTa.ipynb   | xxx  |     xx | 
-|  XLNet (Adam / seq_length = 100)   |keras_hf_XLNet.ipynb   | xxx  |     xx | 
+|  BERT (Adam / seq_length = 100)   |[keras_hf_bert_3060.ipynb](Transformers_HF/keras_hf_bert_3060.ipynb)   | 90.40  |     67.73 | 
+|  DistilBERT (Adam / seq_length = 100)   |[keras_hf_DistilBERT.ipynb](Transformers_HF/keras_hf_DistilBERT.ipynb)   | 89.42  |     65.45 | 
+|  RoBERTa (Adam / seq_length = 100)   |[keras_hf_RoBERTa.ipynb](Transformers_HF/keras_hf_RoBERTa.ipynb)   | 89.48  |     67.40 | 
+|  XLNet (Adam / seq_length = 100)   |[keras_hf_XLNet.ipynb](Transformers_HF/keras_hf_XLNet.ipynb)   | xxx  |     xx | 
 
