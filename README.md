@@ -20,7 +20,7 @@ DataDisca Pty Ltd, Melbourne, Australia
 
 Below mentioned 5 authors were selected as the sample authors for this project.
 In order to generate dataset, multiple books from each author in plain text format is used from [Project Gutenberg](https://www.gutenberg.org/).
-Each source file is covered under respective licenses by [Project Gutenberg](https://www.gutenberg.org/) and strictly used only for research purposes. Raw files are downloaded using the mirrors using a script as per instrutions in [terms of use](ttps://www.gutenberg.org/policy/terms_of_use.html)
+Each source file is covered under respective licenses by [Project Gutenberg](https://www.gutenberg.org/) and strictly used only for research purposes. Raw files are downloaded using the mirrors using a script as per instrutions in [terms of use](https://www.gutenberg.org/policy/terms_of_use.html)
  
 ###  Download raw files
 
