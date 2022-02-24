@@ -25,7 +25,7 @@ Each source file is covered under respective licenses by [Project Gutenberg](htt
 ###  Download raw files
 
 Download the text (Plain Text UTF-8) of at least 5 books for train, test, validation splits and 4 books for the seperate validation dataset from each author in the following table.  
-*Script: Dataset_Prepare\download_dataset.ipynb
+* Script: Dataset_Prepare\download_dataset.ipynb
 
 | Author | URL |
 |--------|-----|
@@ -38,7 +38,7 @@ Download the text (Plain Text UTF-8) of at least 5 books for train, test, valida
 ###  Extract records as CSV files
 
 Extract mutually exclusive records of length L words, from the text of each book for train, test, validation splits as "dataset.csv".  
-*Script: Dataset_Prepare\extract.ipynb
+* Script: Dataset_Prepare\extract.ipynb
 
 * L = 50 # length of records to be extracted
 * N = 1000 # number of records for a book
@@ -54,7 +54,7 @@ Extract mutually exclusive records of length L words, from the text of each book
   8. Convert all text to lowercase 
 
 Extract a seperate validation dataset from another set of books as "validation_dataset.csv".  
-*Script: Dataset_Prepare\seperate_validation.ipynb
+* Script: Dataset_Prepare\seperate_validation.ipynb
   + L = 50 # length of records to be extracted
   + N = 1000 # number of records for a book
   + Extracted 4000 records in total (200 record per book (N) * 5 authors * 4 book per author)
