@@ -87,8 +87,8 @@ Extract a seperate validation dataset from another set of books as "validation_d
 
 | Classifier Model              | Source Code         | Validation Accuracy (same books) |  Validation Accuracy (seperate books) |
 |-------------------------|-----------------|-------------------|-------------------|            
-|  BERT - Google Colab (AdamW / seq_length = 300)     |keras_bert_v4_18_colab.ipynb   | xxx  |     xxx |  
-|  BERT - Local PC (AdamW / seq_length = 300)   |keras_bert_v4_18_3060.ipynb   | xxx  |     xx | 
+|  BERT - Google Colab (AdamW / seq_length = 300)     |[keras_bert_v4_18_colab.ipynb](Transformers_TF/keras_bert_v4_18_colab.ipynb)   | 92.70  |     69.63 |  
+|  BERT - Local PC (AdamW / seq_length = 300)   |keras_bert_v4_18_3060.ipynb   | xx  |     xx | 
 
 ### Transformers - HuggingFace
 
