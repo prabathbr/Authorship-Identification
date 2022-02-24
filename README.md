@@ -43,14 +43,14 @@ Extract mutually exclusive records of length L words, from the text of each book
  + N = 1000 # number of records for a book
  + Extracted 25000 records in total (1000 record per book (N) * 5 authors * 5 books per author)
  + Pre-processing:
-  1. Break lines (sentences) at "." (period)
-  2. Replace "\r\n" with " " (space)
-  3. Replace double spaces with single spaces
-  4. Remove all punctuations and just keep the alphanumeric characters and spaces.
-  5. Remove sentances with less than 20 char to remove gibberish.
-  6. Remove first 100 sentances to remove table of contents, preface etc.
-  7. Remove last 250 sentances to remove Gutenbury stuff such as license etc.
-  8. Convert all text to lowercase 
+   1. Break lines (sentences) at "." (period)
+   2. Replace "\r\n" with " " (space)
+   3. Replace double spaces with single spaces
+   4. Remove all punctuations and just keep the alphanumeric characters and spaces.
+   5. Remove sentances with less than 20 char to remove gibberish.
+   6. Remove first 100 sentances to remove table of contents, preface etc.
+   7. Remove last 250 sentances to remove Gutenbury stuff such as license etc.
+   8. Convert all text to lowercase 
 
 Extract a seperate validation dataset from another set of books as "validation_dataset.csv".  
 * Script: Dataset_Prepare\seperate_validation.ipynb
