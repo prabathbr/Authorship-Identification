@@ -20,9 +20,12 @@ DataDisca Pty Ltd, Melbourne, Australia
 
 Below mentioned 5 authors were selected as the sample authors for this project.
 In order to generate dataset, multiple books from each author in plain text format is used from [Project Gutenberg](https://www.gutenberg.org/).
-Each source file is covered under respective licenses by [Project Gutenberg](https://www.gutenberg.org/) and strictly used only for research purposes.
+Each source file is covered under respective licenses by [Project Gutenberg](https://www.gutenberg.org/) and strictly used only for research purposes. Raw files are downloaded using the mirrors using a script as per instrutions in [terms of use](ttps://www.gutenberg.org/policy/terms_of_use.html)
  
-1. Download the text (Plain Text UTF-8) of at least 5 books from each author in the following table = Dataset_Prepare\download.ipynb
+###  Download raw files
+
+Download the text (Plain Text UTF-8) of at least 5 books for train, test, validation splits and 4 books for the seperate validation dataset from each author in the following table.  
+Script: Dataset_Prepare\download_dataset.ipynb
 
 | Author | URL |
 |--------|-----|
@@ -32,7 +35,10 @@ Each source file is covered under respective licenses by [Project Gutenberg](htt
 | George Eliot |  https://www.gutenberg.org/ebooks/author/90  |
 | Jules Verne |  https://www.gutenberg.org/ebooks/author/60  |
   
-2. Extract mutually exclusive records of length L words, from the text of each book for train, test, validation splits = Dataset_Prepare\extract.ipynb
+###  Extract records as CSV files
+
+Extract mutually exclusive records of length L words, from the text of each book for train, test, validation splits as "dataset.csv". 
+Script: Dataset_Prepare\extract.ipynb
 
 * L = 50 # length of records to be extracted
 * N = 1000 # number of records for a book
@@ -47,7 +53,8 @@ Each source file is covered under respective licenses by [Project Gutenberg](htt
   7. Remove last 250 sentances to remove Gutenbury stuff such as license etc.
   8. Convert all text to lowercase 
 
-* Generate a seperate validation dataset from another set of books = Dataset_Prepare\seperate_validation.ipynb
+Extract a seperate validation dataset from another set of books as "validation_dataset.csv". 
+Script: Dataset_Prepare\seperate_validation.ipynb
   + L = 50 # length of records to be extracted
   + N = 1000 # number of records for a book
   + Extracted 4000 records in total (200 record per book (N) * 5 authors * 4 book per author)
