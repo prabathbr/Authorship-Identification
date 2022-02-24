@@ -83,9 +83,19 @@ Extract a seperate validation dataset from another set of books as "validation_d
 | LSTM + Word2vec   | keras_word2vec_lstm.ipynb  | 70.62             |      55.58 |          
 |  Bidirectional LSTM + Word2vec| keras_word2vec_bi_lstm.ipynb |69.76  |   54.80   |     
 
-### Transformers
+### Transformers - TensorFlow Hub
 
 | Classifier Model              | Source Code         | Validation Accuracy (same books) |  Validation Accuracy (seperate books) |
 |-------------------------|-----------------|-------------------|-------------------|            
-|  BERT (TensorFlow Hub) - Google Colab      |keras_bert_v4_18_colab.ipynb   | 92.76  |     71.15 |  
-|  BERT (TensorFlow Hub) - Local PC    |keras_bert_v4_18_3060.ipynb   | 92.76  |     71.15 | 
+|  BERT - Google Colab (AdamW / seq_length = 300)     |keras_bert_v4_18_colab.ipynb   | xxx  |     xxx |  
+|  BERT - Local PC (AdamW / seq_length = 300)   |keras_bert_v4_18_3060.ipynb   | xxx  |     xx | 
+
+### Transformers - HuggingFace
+
+| Classifier Model              | Source Code         | Validation Accuracy (same books) |  Validation Accuracy (seperate books) |
+|-------------------------|-----------------|-------------------|-------------------|            
+|  BERT (Adam / seq_length = 100)   |keras_hf_bert_3060.ipynb   | xxx  |     xx | 
+|  DistilBERT (Adam / seq_length = 100)   |keras_hf_DistilBERT.ipynb   | xxx  |     xx | 
+|  RoBERTa (Adam / seq_length = 100)   |keras_hf_RoBERTa.ipynb   | xxx  |     xx | 
+|  XLNet (Adam / seq_length = 100)   |keras_hf_XLNet.ipynb   | xxx  |     xx | 
+
