@@ -39,7 +39,6 @@ Download the text (Plain Text UTF-8) of at least 5 books for train, test, valida
 
 Extract mutually exclusive records of length L words, from the text of each book for train, test, validation splits as "dataset.csv".  
 * Script: Dataset_Prepare\extract.ipynb
-
 + L = 50 # length of records to be extracted
 + N = 1000 # number of records for a book
 + Extracted 25000 records in total (1000 record per book (N) * 5 authors * 5 books per author)
