@@ -72,3 +72,6 @@ Extract a seperate validation dataset from another set of books as "validation_d
 | Naive Bayes             | [train_NB.ipynb](Classical_Models/train_NB.ipynb) |89.34         |89.92             |
 | XGBoost                 | [train_XGB.ipynb](Classical_Models/train_XGB.ipynb) |78.23     |77.73          |
 
+### Deep Learning
+
+### Transformers
